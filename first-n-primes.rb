@@ -13,7 +13,7 @@ def first_n_primes(n)
   for num in (1..n)
     prime_array.push(prime.next)
   end
-  return prime_array
+  prime_array
 end
 
 first_n_primes(10)
