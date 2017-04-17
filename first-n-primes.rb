@@ -10,4 +10,6 @@ def first_n_primes(n)
   prime.first n
 end
 
-first_n_primes(10)
+puts "How many primes?"
+choice = gets.chomp
+puts first_n_primes(choice.to_i)
