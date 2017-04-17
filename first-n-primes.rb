@@ -3,13 +3,9 @@ require 'prime'
 
 def first_n_primes(n)
 
-  unless n.is_a? Integer
-    return "n must be an integer."
-  end
+  "n must be an integer." unless n.is_a? Integer
 
-  if n <= 0
-    return "n must be greater than 0."
-  end
+  "n must be greater than 0." if n <= 0
   
   prime_array ||= []
   
